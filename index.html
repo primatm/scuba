@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;700;900&family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <link href="/lightbox2-2.11.3/dist/css/lightbox.min.css" rel="stylesheet" />
+
+    <title>Scuba Diving</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="landing">
+        <header>
+            <img src="/imgs/logo2.png">
+            <div class="hamburger" onclick="openmenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">TOURS</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+                <img src="/imgs/close.png" onclick="closemenu()">
+            </nav>
+        </header>
+        <div class="hero">
+            <h1 class="hero-anim">Experience scuba diving</h1>
+            <p class="hero-anim">Discover the underwater world with our team of professional instructors. From beginner to advanced courses and day trips for everyone</p>
+            <div class="hero-buttons">
+                <a href="#" class="hero-anim"><button>Learn More</button></a>
+                <a href="#" class="hero-anim"><button id="book-btn">Book Now</button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="tours">
+        <h2>Tours and Courses</h2>
+        <p class="tours-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus in reiciendis harum cumque aliquam.</p>
+        <div class="cards">
+            <div class="card">
+                <div class="location">
+                    <p>Koh Tao</p>
+                    <img src="/imgs/location-pin.png">
+                </div>
+                <h4>Diving Courses</h4>
+                <a href="#">Book Now</a>
+            </div>
+            <div class="card">
+                <div class="location">
+                    <p>Tui Wreck</p>
+                    <img src="/imgs/location-pin.png">
+                </div>
+                <h4>Wreck Diving</h4>
+                <a href="#">Book Now</a>
+            </div>
+            <div class="card">
+                <div class="location">
+                    <p>Kalkoura</p>
+                    <img src="/imgs/location-pin.png">
+                </div>
+                <h4>Cave Diving</h4>
+                <a href="#">Book Now</a>
+            </div>
+        </div>
+        <p class="tours-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repudiandae magni reiciendis dolores consequatur, a vero deserunt accusamus? Rerum, accusantium.</p>
+    </div>
+
+    <div class="action">
+        <div class="action-desc anim-text">
+            <h2>Call To Action</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe voluptate quisquam nemo alias nisi laboriosam officiis dignissimos rerum?</p>
+            <a href="#" class="btn">Subscribe</a>
+        </div>
+        <img src="/imgs/grid2.jpg">
+    </div>
+
+    <div class="adventure">
+        <video playsinline autoplay loop src="/ocean1.1.mp4"></video>
+        <img src="/imgs/ronioc-cutout.png" id="ronioc">
+        <div class="adventure-description">
+            <h2>Start Your Next Adventure</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint vero corrupti, totam odit ipsa culpa cumque expedita quia ipsam sed!</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </div>
+
+    <div class="experience">
+        <div class="experience-cards">
+            <div class="card">
+                <img src="/imgs/ikone/oxygen-tank.png">
+                <div class="card-desc">
+                    <h4>Professional Equipment</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#" class="underline">Read More</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/imgs/ikone/scuba-diving.png">
+                <div class="card-desc">
+                    <h4>The Best Instructors</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#" class="underline">Read More</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/imgs/ikone/placeholder.png">
+                <div class="card-desc">
+                    <h4>Exotic Locations</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#" class="underline">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Subscribe now to recieve our newest offers and discounts</p>
+        <input type="text"><a href="#" class="btn">Subscribe</a>
+    </div>
+
+    <div class="blog">
+        <img src="/imgs/blog1.jpg">
+        <div class="blog-description">
+            <h3>From Our Blog</h3>
+            <hr>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores quaerat eaque minus distinctio, voluptate sunt cum laboriosam molestias natus facere.</p>
+            <p class="second-p">Fuga veritatis similique quaerat quidem, consectetur voluptatum autem distinctio laborum modi reiciendis.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </div>
+
+    <div class="testimonials">
+        <div class="testimonials-container">
+            <div class="testimonial">
+                <div class="slide">
+                    <p>"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, rem aliquam, quasi nostrum mollitia a, minima natus blanditiis velit sed ab nisi ipsam corrupti fuga obcaecati quibusdam qui hic quis."</p>
+                    <span>John Doe</span>
+                </div>
+                <div class="slide">
+                    <p>"Modi, rem aliquam, quasi nostrum mollitia a, minima natus blanditiis velit sed ab nisi ipsam corrupti fuga obcaecati quibusdam qui hic quis."</p>
+                    <span>Dane Joe</span>
+                </div>
+                <div class="slide">
+                    <p>"Blanditiis eos voluptatibus quam, laudantium totam ipsa placeat, cupiditate voluptate, autem commodi reprehenderit delectus tempore laboriosam."</p>
+                    <span>Joe Bloggs</span>
+                </div>
+            </div>
+            <div class="strelice">
+                <img src="/imgs/left-chevron.png" class="arrow" id="left" onclick="previousReview()"><img src="/imgs/right-chevron.png" class="arrow" id="right" onclick="nextReview()">
+            </div>
+        </div>
+            <img src="/imgs/blog2.jpg" id="test-img">
+    </div>
+
+    <div class="gallery">
+        <div class="gallery-header">
+            <h3>View Our Gallery</h3>
+            <a href="#">view all</a>
+        </div>
+        <div class="gallery-grid">
+            <a href="imgs/grid1.jpg" data-lightbox="image-1" class="grid-photo"><img src="imgs/grid1.jpg"></a>
+            <a href="imgs/grid2.jpg" data-lightbox="image-1" class="grid-photo"><img src="imgs/grid2.jpg"></a>
+            <a href="imgs/grid3.jpg" data-lightbox="image-1" class="grid-photo"><img src="imgs/grid3.jpg"></a>
+            <a href="imgs/grid4.jpg" data-lightbox="image-1" class="grid-photo"><img src="imgs/grid4.jpg"></a>
+            <a href="imgs/grid6.jpg" data-lightbox="image-1" class="grid-photo"><img src="imgs/grid6.jpg"></a>
+            <a href="imgs/blog1.jpg" data-lightbox="image-1" class="grid-photo"><img src="imgs/blog1.jpg"></a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-wrap">
+            <div class="footer-contact">
+                <h4>LOGO</h4>
+                <p>+1 123 45 67 89</p>
+                <h4>Our Address</h4>
+                <p>Address 123, City</p>
+                <div class="social-icons">
+
+                </div>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23541.963962663845!2d99.83684151285782!3d10.091435065726554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3055a1c0322e70e7%3A0x8ad5f354bb6e5341!2sKo%20Tao!5e0!3m2!1sen!2shr!4v1657790778747!5m2!1sen!2shr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="quick-links">
+                <ul>
+                    <li>Diving Lessons</li>
+                    <li>Equipment Rental</li>
+                    <li>Diving Camp</li>
+                    <li>Media</li>
+                    <li>About Us</li>
+                    <li>Our News</li>
+                    <li>Careers</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy">
+            <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> SCUBA Tours All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="/lightbox2-2.11.3/dist/js/lightbox-plus-jquery.js"></script>
+</body>
+</html>
