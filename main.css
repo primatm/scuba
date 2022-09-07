@@ -26,7 +26,7 @@ body {
 
 .landing {
   height: 100vh;
-  background: center/cover no-repeat url(/imgs/landing.jpg);
+  background: center/cover no-repeat url(landing.jpg);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -276,7 +276,7 @@ nav img {
 .cards .card {
   width: 100%;
   height: 45vh;
-  background: center/cover no-repeat url(/imgs/card1.jpg);
+  background: center/cover no-repeat url(card1.jpg);
   border-radius: 20px;
   padding: 1rem 1.5rem;
   display: -webkit-box;
@@ -296,11 +296,11 @@ nav img {
 }
 
 .cards .card:nth-of-type(2) {
-  background: center/cover no-repeat url(/imgs/card2.jpg);
+  background: center/cover no-repeat url(card2.jpg);
 }
 
 .cards .card:nth-of-type(3) {
-  background: center/cover no-repeat url(/imgs/card3.jpg);
+  background: center/cover no-repeat url(card3.jpg);
 }
 
 .cards .card .location {
